@@ -1,0 +1,140 @@
+
+body {
+    margin-top: 40px; /* This margin just makes the text easier to read. You can remove it if you want since it can mess with your other styles. */
+  }
+  
+  body::before {
+    content: "XS";
+    color: red;
+    font-size: 2rem;
+    font-weight: bold;
+    position: fixed;
+    top: 0;
+    right: 0;
+  }
+  
+  /* This box class is purely used for explaining how the bootstrap grid system works. */
+  .box {
+    background-color: lightblue;
+    border: 1px solid blue;
+    min-height: 50px;
+    font-size: 2rem;
+  }
+  
+  @media (min-width: 576px) {
+    body::before {
+      content: "SM";
+    }
+  }
+  
+  @media (min-width: 768px) {
+    body::before {
+      content: "MD";
+    }
+  }
+  
+  @media (min-width: 992px) {
+    body::before {
+      content: "LG";
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    body::before {
+      content: "XL";
+    }
+  }
+  
+  @media (min-width: 1400px) {
+    body::before {
+      content: "XXL";
+    }
+  }
+  h2, p {
+    font-family: 'Lobster', cursive;
+font-family: 'Roboto Slab', serif;
+  }
+  H2{
+    text-align: center;
+    font-weight: bold;
+  }
+  .img-fluid{
+    width: 30%;
+    margin-bottom: 25px;
+    
+  }
+  .img-flex{
+    display: flex;
+    justify-content: center;
+  }
+  .progress{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 20px;
+  }
+.buttons{
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    row-gap: 20px;
+    justify-content: center;
+}
+.one, .two{
+    background-color: #00aff0;
+    border-style: none;
+    width: 500px;
+    text-transform: uppercase;
+    color: #fefefe;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 8px 18px;
+    border-radius: 16px;
+}
+.one:hover{
+    background-color: #0595c9;
+    transition: 0,15s;
+}
+.two:hover{
+    background-color: #0595c9;
+    transition: 0,15s;
+}
+.second-grip{
+    display: flex;
+    justify-self: normal;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.profil-tag{
+    width: 20%;
+    border-radius: 70px;
+}
+p{
+    color: grey;
+}
+.obrazky{
+    display: flex;
+    margin-left: 20%;
+}
+.third{
+    background-color: #00aff0;
+    border-style: none;
+    width: 40%;
+    text-transform: uppercase;
+    color: #fefefe;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 8px 18px;
+    border-radius: 16px;
+    margin-top: 20px;
+}
+h3{
+    margin-left: 2%;
+
+}
+.img-fluid{
+    margin-left: 2%;
+}
+figcaption{
+    margin-left: 2%;
+}
