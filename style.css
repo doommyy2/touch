@@ -4,7 +4,7 @@ body {
   }
   
   body::before {
-    content: "XS";
+    content: ;
     color: red;
     font-size: 2rem;
     font-weight: bold;
@@ -23,31 +23,31 @@ body {
   
   @media (min-width: 576px) {
     body::before {
-      content: "SM";
+      content: ;
     }
   }
   
   @media (min-width: 768px) {
     body::before {
-      content: "MD";
+      content: ;
     }
   }
   
   @media (min-width: 992px) {
     body::before {
-      content: "LG";
+      content: ;
     }
   }
   
   @media (min-width: 1200px) {
     body::before {
-      content: "XL";
+      content: ;
     }
   }
   
   @media (min-width: 1400px) {
     body::before {
-      content: "XXL";
+      content: ;
     }
   }
   h2, p {
